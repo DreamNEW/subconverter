@@ -16,10 +16,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - arch: armv7
-            artifact: subconverter_armv7
-            os: ubuntu-24.04-arm
-          - arch: armv5
+          - arch: armhf-v3.11
             artifact: subconverter_armv5
             os: ubuntu-24.04-arm
           
